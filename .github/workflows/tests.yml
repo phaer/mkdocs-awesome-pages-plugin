@@ -7,8 +7,7 @@ on:
   pull_request:
     branches:
       - master
-  schedule:
-    - cron: '0 0 * * 0' # once a week
+  workflow_dispatch: {}
 
 defaults:
   run:
